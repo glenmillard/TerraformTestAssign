@@ -25,5 +25,5 @@ provider "aws" {
 5. run ``terraform plan`` - see if there are errors
 6. run ``terraform apply`` - it seems to take anywhere from 12 to 18 minutes to deploy
 7. verify that the Elasticsearch cluster is present on your AWS console 
-8. for informational purposes, if you login to you AWS console and you don't see your image(s), check your region. Don't
+8. for informational purposes, if you login to your AWS console and you don't see your image(s), check your region. Don't
 make the same mistake that I did. Note that us-east-1 is Virgina, and us-east-2 is Ohio.
