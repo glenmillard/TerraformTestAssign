@@ -9,7 +9,7 @@
 * git installed on your machine - in my case ``dnf install git``
 * an AWS free account (unless you want to pay - which I don't!!) - https://aws.amazon.com/free/
 * access to the Internet - umm yeah...
-* in the file elastic-domain.tf, update the following line to reflect your info:
+* in the file ``elastic-domain.tf`` (in the repo), update the following line to reflect your info:
 ``` 
 provider "aws" {
   access_key = "<your AWS access key here>"
