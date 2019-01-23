@@ -9,6 +9,14 @@
 * git installed on your machine
 * an AWS free account (unless you want to pay - which I don't!!)
 * access to the Internet
+* in the file elastic-domain.tf, update the following line to reflect your info:
+``` 
+provider "aws" {
+  access_key = "<your AWS access key here>"
+  secret_key = "<your AWS secret key here>"
+  region     = "us-east-1"
+}
+```
 
 1. Pull this repo
 2. make sure that the Terraform binary is installed on your machine
