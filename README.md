@@ -19,11 +19,11 @@ provider "aws" {
 ```
 
 1. Pull this repo ``git clone https://github.com/glenmillard/TerraformTestAssign.git``
-2. make sure that the Terraform binary is installed on your machine ``https://www.terraform.io/downloads.html``
+2. Make sure that the Terraform binary is installed on your machine ``https://www.terraform.io/downloads.html``
 3. In the directory , run ``terraform init`` - this initialises your Terraform client
-4. edit the file elastic-domain.tf to reflect your Amazon creds - see above to edit the elastic-domain.tf file
-5. run ``terraform plan`` - see if there are errors
-6. run ``terraform apply`` - it seems to take anywhere from 12 to 18 minutes to deploy
-7. verify that the Elasticsearch cluster is present on your AWS console 
-8. for informational purposes, if you login to your AWS console and you don't see your image(s), check your region. Don't
+4. Edit the file elastic-domain.tf to reflect your Amazon creds - see above to edit the elastic-domain.tf file
+5. Run ``terraform plan`` - see if there are errors
+6. Run ``terraform apply`` - it seems to take anywhere from 12 to 18 minutes to deploy
+7. Verify that the Elasticsearch cluster is present on your AWS console 
+8. For informational purposes, if you login to your AWS console and you don't see your image(s), check your region. Don't
 make the same mistake that I did. Note that us-east-1 is Virgina, and us-east-2 is Ohio.
